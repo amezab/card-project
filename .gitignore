@@ -1,0 +1,10 @@
+# 1. Ignore IntelliJ's settings so they don't cause merge errors
+.idea/
+
+# 2. Ignore the folder where the "Robot" builds the code locally
+target/
+
+# 3. Ignore hidden system files that we don't need on GitHub
+Thumbs.db
+.DS_Store
+*.class
